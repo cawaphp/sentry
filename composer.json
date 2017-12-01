@@ -1,0 +1,29 @@
+{
+    "name": "cawaphp/sentry",
+    "description": "Сáша Sentry",
+    "keywords": [
+        "sentry"
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "tchiotludo"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cawa\\Sentry\\": "src"
+        }
+    },
+    "require": {
+        "php": "~7.1",
+        "cawaphp/cawa" : "dev-master",
+        "cawaphp/console": "dev-master",
+        "cawaphp/httpclient" : "dev-master",
+        "cawaphp/queue": "dev-master",
+
+        "sentry/sentry": "^1.6"
+    }
+}
