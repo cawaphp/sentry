@@ -6,7 +6,7 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "license": "GPL-3.0",
+    "license": "GPL-3.0-only",
     "authors": [
         {
             "name": "tchiotludo"
@@ -24,6 +24,7 @@
         "cawaphp/httpclient" : "dev-master",
         "cawaphp/queue": "dev-master",
 
-        "sentry/sentry": "^1.6"
+        "sentry/sentry": "^1.6",
+        "symfony/debug": "^4.0"
     }
 }
